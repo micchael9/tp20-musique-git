@@ -6,5 +6,7 @@ public class Mika {
 
     private String prenom;
 
+    private String tototata;
+
 }
 
