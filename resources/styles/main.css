@@ -1,0 +1,84 @@
+body {
+    padding: 40px;
+    background-color: #333;
+    color: #fff;
+    /* font-family copié de puis Bootstrap reboot */
+    font-family: -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        "Roboto",
+        "Helvetica Neue", Arial, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.header {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    text-decoration: none;
+    background: #fff;
+    color: #1ed760;
+    border: none;
+    border-radius: 3px;
+}
+
+.form {
+    width: 400px;
+    font-size: 1.4em;
+}
+
+.form input {
+    font-size: 1.4em;
+    padding: 5px 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.musique-ul {
+    padding: 0;
+}
+
+.musique-li {
+    list-style: none inside none;
+    cursor: pointer;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.musique-li:hover {
+    background: #ddd;
+}
+
+.musique-li-icon {
+    margin-right: 10px;
+}
+
+.musique-li-title {
+    display: inline-block;
+    min-width: 200px;
+}
+
+.musique-li-artiste {
+    display: inline-block;
+    min-width: 200px;
+    margin: 0 10px;
+    color: #777;
+}
+
+.musique-li-duree {
+    margin-left: auto;
+    visibility: hidden;
+}
+
+.musique-li:hover > .musique-li-duree {
+    visibility: visible;
+}
